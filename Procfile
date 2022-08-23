@@ -1,1 +1,2 @@
-web: gunicorn djangocrud/djangocrud/wsgi.py:application
+web: python djangocrud/manage.py runserver
+web: gunicorn --pythonpath djangocrud/djangocrud/wsgi.py --log-file -
