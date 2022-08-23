@@ -2,3 +2,5 @@ django
 djangorestframework
 django-cors-headers
 pillow
+
+setuptools==1.0
