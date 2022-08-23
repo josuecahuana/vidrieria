@@ -1,1 +1,1 @@
-web: gunicorn djangocrud/djangocrud/wsgi:application
+web: gunicorn djangocrud/djangocrud/wsgi.py
