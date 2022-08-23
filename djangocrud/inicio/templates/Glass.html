@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/aos/aos.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/bootstrap-icons/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/boxicons/css/boxicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/glightbox/css/glightbox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/swiper/swiper-bundle.min.css' %}">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="{% static 'inicio/style.css' %}">
+
+    <title>Document</title>
+    <style>
+        /*css code*/
+        .sa h2,h3,h5{
+            margin: 0;
+            padding: 10px;
+        }
+        .sa h5,table{
+            border: solid #eee 7px;
+            width: 100%;
+        }
+        .subtitleGlass{
+            background-color: #eee;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent header-scrolled">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div id="logo">
+                <a href="/inicio"><img src="{% static 'inicio/img/logo.png' %}" alt=""></a>
+                <!-- Uncomment below if you prefer to use a text logo -->
+                <!--<h1><a href="index.html">Regna</a></h1>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="/inicio">Home</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main">
+        <section id="services">
+            <div class="container">
+                <div class=" row">
+                    <div class="col-lg-6 col-md-12 section-headerd inlineHeaders">
+                        <div class="sa">
+                            <h2 class="subtitleGlass">Descripción</h2>
+                            <h5>{{objeto.descripcion}}</h5>
+                            <h2 class="subtitleGlass">Detalles</h2>
+                            <table>
+                                <tr>
+                                    <td><h3>Nombre:</h3></td>
+                                    <td><h3>{{ objeto.nombre }}</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>Costo:</h3></td>
+                                    <td><h3>s/. {{ objeto.costo }}</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>Tipo:</h3></td>
+                                    <td><h3>{{ objeto.tipo }}</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>Largo:</h3></td>
+                                    <td><h3>{{ objeto.largo }} cm</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>Alto:</h3></td>
+                                    <td><h3>{{ objeto.alto }} cm</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><h3>Grosor:</h3></td>
+                                    <td><h3>{{ objeto.grosor }} mm</h3></td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-12 section-header">
+                        <img style="width: 100%;" src="/imagenes/{{ objeto.imagen}}" alt="Imagen de {{ objeto.nombre}}">
+                    </div>
+                </div>
+            <div>
+        <section>
+    <main>
+</body>
+</html>

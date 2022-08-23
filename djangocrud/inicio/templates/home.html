@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Vidriería</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="{% static 'inicio/img/favicon.png' %}">
+    <link rel="apple-touch-icon" type="image/png" href="{% static 'inicio/img/apple-touch-icon.png' %}">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+        rel="stylesheet">
+
+    <!-- elPersonal CSS Files -->
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/aos/aos.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/bootstrap-icons/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/boxicons/css/boxicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/glightbox/css/glightbox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'inicio/elPersonal/swiper/swiper-bundle.min.css' %}">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="{% static 'inicio/style.css' %}">
+    <!-- =======================================================
+  * Template Name: Regna - v4.7.0
+  * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div id="logo">
+                <a href="/inicio"><img src="{% static 'inicio/img/logo.png' %}" alt=""></a>
+                <!-- Uncomment below if you prefer to use a text logo -->
+                <!--<h1><a href="index.html">Regna</a></h1>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Sobre nosotros</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+                    <li><a class="nav-link scrollto " href="#portfolio">Productos</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
+                    <!-- Dropdown-->
+                    <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
+                                        class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    -->
+                    <li><a class="nav-link scrollto" href="#contact">Contactenos</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Bienvenido a nuestra Vidriería</h1>
+            <h2>En esta página encontrarás los mejores vidrios a los mejores precios</h2>
+            <a href="#about" class="btn-get-started">Get Started</a>
+        </div>
+    </section><!-- End Hero Section -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row about-container">
+
+                    <div class="col-lg-6 content order-lg-1 order-2">
+                        <h2 class="title">Un poco acerca de nosotros</h2>
+                        <p>
+                            Nosotros somos una empresa de vidrios, en la cual ofrecemos amplia variedad de los mismo y a los
+                            mejores precios. Nos diferenciamos de los demás por ofrecer precios comodos y contacto directo con
+                            nuestros clientes a través de esta pagina web.
+                        </p>
+
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="bi bi-briefcase"></i></div>
+                            <h4 class="title"><a href="">Productos de calidad</a></h4>
+                            <p class="description">Nos encargamos de llevarles a nuestros clientos los productos de mejor calidad</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+                            <h4 class="title"><a href="">Buen trato al cliente</a></h4>
+                            <p class="description">Nos comprometemos a tratar al cliente con respeto, tolerancia y empatia</p>
+                        </div>
+
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon"><i class="bi bi-binoculars"></i></div>
+                            <h4 class="title"><a href="">Alta disponibilidad</a></h4>
+                            <p class="description">Siempre estaremos atentos para atender a nuestros clientes o para responder sus mensajes</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- ======= Facts Section ======= -->
+        <section id="facts">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h3 class="section-title">Facts</h3>
+                    <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque</p>
+                </div>
+                <div class="row counters">
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="2"
+                            class="purecounter"></span>
+                        <p>Clients</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="534" data-purecounter-duration="2"
+                            class="purecounter"></span>
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="2"
+                            class="purecounter"></span>
+                        <p>Hours Of Support</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="2"
+                            class="purecounter"></span>
+                        <p>Hard Workers</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Facts Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h3 class="section-title">Servicios</h3>
+                    <p class="section-description">Les presentamos los servicios que ofrecemos actualmente</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="bi bi-briefcase"></i></a></div>
+                            <h4 class="title"><a href="">Colocado de ventanas con sistema Moduglass</a></h4>
+                            <p class="description">Se ofrece el colocado de ventanas con sistema Moduglass, sistema el cual es muy versatil y facilita la apertura de la ventana</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="bi bi-card-checklist"></i></a></div>
+                            <h4 class="title"><a href="">Colocado de mamparas</a></h4>
+                            <p class="description">Instalacion de mamparas, tanto en espacios grandes como pequeños</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+                        <div class="box">
+                            <div class="icon"><a href=""><i class="bi bi-bar-chart"></i></a></div>
+                            <h4 class="title"><a href="">Colocado de ventanas corredizas</a></h4>
+                            <p class="description">Se ofrece el colodado de ventanas corredizas con medidas personalizadas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
+        <!-- ======= Call To Action Section ======= -->
+        <section id="call-to-action">
+            <div class="container">
+                <div class="row" data-aos="zoom-in">
+                    <div class="col-lg-9 text-center text-lg-start">
+                        <h3 class="cta-title">Vidrios con colores personalizados</h3>
+                        <p class="cta-text"> ¿Deseas un vidrio que de distintos colores? Contactenos para poder adquirir su vidrio personalizado</p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="#contact">Contactenos</a>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Call To Action Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h3 class="section-title">Vidrios</h3>
+                    <p class="section-description">Aqui presentamos nuestros vidrios </p>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-app">Incoloro</li>
+                            <li data-filter=".filter-card">Bronce</li>
+                            <li data-filter=".filter-web">Otros</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                    {% for p in vidrios %}
+                    {% if p.tipo|upper == "INCOLORO" %} <!-- Selector para data-filters en la pagina web-->
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    {% elif p.tipo|upper == "BRONCE" %}
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    {% else %}
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    {% endif %}
+                        <img style="width: 100%;" src="/imagenes/{{ p.imagen }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>{{ p.nombre }}</h4>
+                            <p>Web</p>
+                            <a data-gallery="portfolioGallery"
+                                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="{{ p.id }}" class="details-link" title="More Details"><i
+                                    class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                    {% endfor %} 
+                </div>
+                <div id="datos"></div>
+            </div>
+        </section><!-- End Portfolio Section -->
+        
+        <!-- ======= Team Section ======= -->
+        <section id="team">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h3 class="section-title">Equipo de trabajo</h3>
+                    <p class="section-description">Estos son los desarrolladores de esta página Web</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="pic"><img style="height: inherit;" src="{% static 'inicio/img/team-1.jpeg' %}" alt=""></div>
+                            <h4>Daniel Umasi</h4>
+                            <span>FullStack</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="fade-up" data-aos-delay="200">
+                            <div class="pic"><img style="height: inherit;" src="{% static 'inicio/img/team-2.jpeg' %}" alt=""></div>
+                            <h4>Jessica Hancco</h4>
+                            <span>FullStack</span>
+                            <div class="social">
+                                <a href="https://github.com/JessHV"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="member" data-aos="fade-up" data-aos-delay="300">
+                            <div class="pic"><img style="height: inherit;" src="{% static 'inicio/img/team-3.jpeg' %}" alt=""></div>
+                            <h4>Oliver Mayta</h4>
+                            <span>FullStack</span>
+                            <div class="social">
+                                <a href="https://github.com/oliver092377"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-0"></div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="fade-up" data-aos-delay="400">
+                            <div class="pic"><img style="height: inherit;" src="{% static 'inicio/img/team-4.jpeg' %}" alt=""></div>
+                            <h4>Antony Blanco</h4>
+                            <span>FullStack</span>
+                            <div class="social">
+                                <a href="https://github.com/AntonyBlanco"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="fade-up" data-aos-delay="400">
+                            <div class="pic"><img style="height: inherit;" src="{% static 'inicio/img/team-5.jpeg' %}" alt=""></div>
+                            <h4>Josué Cahuana</h4>
+                            <span>FullStack</span>
+                            <div class="social">
+                                <a href="https://github.com/josuecahuana"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End Team Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="section-title">Contacto</h3>
+                    <p class="section-description">Para cantactarte con la tienda llamar a +51 941 762 480 </p>
+                </div>
+            </div>
+
+            <!-- Uncomment below if you want to use dynamic maps -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61238.5674255981!2d-71.57403109201994!3d-16.40396711205188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a487785b9b3%3A0xa3c4a612b9942036!2sArequipa!5e0!3m2!1ses!2spe!4v1661013312320!5m2!1ses!2spe"
+                
+                width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-4">
+
+                        <div class="info">
+                            <div>
+                                <i class="bi bi-geo-alt"></i>
+                                <p>Arequipa</p>
+                            </div>
+
+                            <div>
+                                <i class="bi bi-envelope"></i>
+                                <p>vidrieriaaustralaqp@gmail.com</p>
+                            </div>
+
+                            <div>
+                                <i class="bi bi-phone"></i>
+                                <p>+51 941 762 480</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://twitter.com" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 col-md-8">
+                        <div class="form">
+                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control" name="subject" id="subject"
+                                        placeholder="Subject" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                        required></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    
+    <!-- elPersonal JS Files -->
+    <script src="{% static 'inicio/elPersonal/purecounter/purecounter.js' %}"></script>
+    <script src="{% static 'inicio/elPersonal/aos/aos.js' %}"></script>
+    <script src="{% static 'inicio/elPersonal/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'inicio/elPersonal/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'inicio/elPersonal/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'inicio/elPersonal/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'inicio/elPersonal/php-email-form/validate.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static 'inicio/main.js' %}"></script>
+
+    <!-- Petición asincrona AJAX -->
+    <script>
+        let i = 0;
+        var text;
+        const listUsers = () => {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8000/glass/",
+                contentType: "application/json",
+                async: true,
+                success: function (data) {
+                    let len = data.length;
+                    text = ""
+                    for (; i < len; ) {
+                        text += "<h4>"
+                        text += data[i].nombre + "</h4>";
+                        text += "<details>";
+                        text += "costo: "+data[i].costo + "<br>";     
+                        text += "tipo: "+data[i].tipo + "<br>";  
+                        text += "largo: "+data[i].largo + "cm<br>";     
+                        text += "alto: "+data[i].alto + "cm<br>";  
+                        text += "grosor: "+data[i].grosor + "mm<br>";  
+                        text += "</details><br>";                      
+                        i++;
+                    }
+                    console.log(text);
+                    document.getElementById("datos").innerHTML = text;
+                }, error: function(error){
+                    console.log(error);
+                }
+            })
+        };
+        $(document).ready(function($){
+            listUsers();
+        });
+    </script>
+
+</body>
+
+</html>
