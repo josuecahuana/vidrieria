@@ -1,1 +1,1 @@
-web: gunicorn locallibrary.wsgi --log-file -
+web: python djangocrud/manage.py runserver
